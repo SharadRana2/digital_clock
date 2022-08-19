@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #333;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            min-width: 100vw;
+        }
+        .clock{
+            font-size: 8rem;
+            font-family: Arial, Helvetica, sans-serif;
+            color: yellow;
+        }
+        .clock span{
+            background-color: #444;
+            padding: 10px;
+        }
+        @media(max-width : 420px){
+            .clock{
+                font-size: 3rem;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="clock"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
