@@ -1,2 +1,2 @@
 # digital_clock
-A simple Digital clock using the Date Object in Javascript.
+A simple Digital clock made using the Date Object in Javascript.
